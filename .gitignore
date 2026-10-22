@@ -11,8 +11,8 @@ __pycache__/
 venv/
 env/
 
-# Temp images & videos
-*.jpg
-*.png
-*.mp4
-!demo/*.jpg
+# Generated outputs from notebook runs
+hasil_*
+frame_*
+demo_*
+sampel.jpg

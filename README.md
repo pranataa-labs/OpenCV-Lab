@@ -14,6 +14,15 @@ Repositori latihan interaktif untuk belajar pengolahan citra (*image processing*
 
 ---
 
+## 📁 Aset Citra & Video
+
+- `pohon.jpg` — Citra utama untuk manipulasi dasar, transformasi geometri, filtering, dan analisis kontur.
+- `wajah.jpg` — Citra potret untuk pengujian deteksi wajah menggunakan *Haar Cascades*.
+- `burung.jpg` — Citra siluet untuk operasi bitwise dan perbandingan channel.
+- `video.mp4` — File video sumber untuk ekstraksi frame dan pemrosesan video frame-by-frame.
+
+---
+
 ## 📌 Topik Pembelajaran
 
 - **Dasar OpenCV & I/O Citra**: Import OpenCV & NumPy, Membaca Gambar (`imread`), Menampilkan Gambar (`cv2_imshow` / Matplotlib), Menyimpan Gambar (`imwrite`), Properti Citra (Resolusi & Channel), Akses & Modifikasi Piksel BGR, Membuat Kanvas Kosong.
