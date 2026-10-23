@@ -1,59 +1,59 @@
-# 📷 OpenCV Lab
+# 📷 OpenCV Lab: Computer Vision Playground
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <a href="https://colab.research.google.com/github/pranataa-labs/opencv-lab/blob/main/belajar-opencv.ipynb" target="_blank">
+  <a href="https://colab.research.google.com/github/pranataa-labs/OpenCV-Lab/blob/main/belajar-opencv.ipynb" target="_blank">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="height: 28px;"/>
   </a>
 </p>
 
-Repositori latihan interaktif untuk belajar pengolahan citra (*image processing*) dan Computer Vision menggunakan **OpenCV** dari dasar hingga tingkat lanjut.
+An interactive playground repository for mastering digital image processing and Computer Vision with **OpenCV** from fundamental pixel mechanics to advanced morphological analysis and real-time video stream processing.
 
 ---
 
-## 📁 Aset Citra & Video
+## 📁 Image & Video Assets
 
-- `pohon.jpg` — Citra utama untuk manipulasi dasar, transformasi geometri, filtering, dan analisis kontur.
-- `wajah.jpg` — Citra potret untuk pengujian deteksi wajah menggunakan *Haar Cascades*.
-- `burung.jpg` — Citra siluet untuk operasi bitwise dan perbandingan channel.
-- `video.mp4` — File video sumber untuk ekstraksi frame dan pemrosesan video frame-by-frame.
-
----
-
-## 📌 Topik Pembelajaran
-
-- **Dasar OpenCV & I/O Citra**: Import OpenCV & NumPy, Membaca Gambar (`imread`), Menampilkan Gambar (`cv2_imshow` / Matplotlib), Menyimpan Gambar (`imwrite`), Properti Citra (Resolusi & Channel), Akses & Modifikasi Piksel BGR, Membuat Kanvas Kosong.
-- **Transformasi Geometri & Menggambar**: Mengubah Ukuran (`resize`), Pemotongan (*Cropping*), Translasi (`warpAffine`), Rotasi Matriks, Membalik Gambar (`flip`), Menggambar Garis, Persegi & Lingkaran, Menambahkan Teks (`putText`).
-- **Ruang Warna & Thresholding**: Konversi Grayscale (`cvtColor`), Ruang Warna HSV, Split & Merge Channel, Simple Thresholding, Adaptive Gaussian Thresholding, Otsu's Thresholding, Membalik Warna (*Invert*).
-- **Filtering, Blurring & Deteksi Tepi**: Custom Kernel (Konvolusi 2D), Averaging Blur, Gaussian Blur, Median Blur, Bilateral Filter, Deteksi Tepi Sobel, Laplacian, Canny Edge Detection.
-- **Morfologi Matematika & Analisis Kontur**: Operasi Erosi, Dilasi, Opening, Closing, Deteksi Kontur (`findContours`), Menggambar Kontur (`drawContours`), Bounding Box, Perhitungan Luas Area & Keliling.
-- **Fitur Lanjutan, Masking & Pemrosesan Video**: Operasi Bitwise (AND, OR, XOR), Image Masking, Kalkulasi Histogram Warna, Histogram Equalization, CLAHE, Template Matching, Deteksi Wajah (Haar Cascades), Membaca Video (`VideoCapture`), Ekstraksi Frame, Menyimpan Video (`VideoWriter`).
+- `pohon.jpg`: Master image for geometric transformations, spatial filtering, and contour extraction.
+- `wajah.jpg`: Portrait image for validating face detection via *Haar Cascades*.
+- `burung.jpg`: Silhouette asset for bitwise operations and channel isolation.
+- `video.mp4`: Source video file for frame extraction and frame-by-frame processing.
 
 ---
 
-## 🚀 Cara Menjalankan
+## 📌 Curriculum & Core Learning Modules
 
-### Opsi A: Google Colab
-Klik badge **Open in Colab** di atas atau buka file `belajar-opencv.ipynb` langsung di Google Colab.
+- **OpenCV Fundamentals & I/O:** Reading images (`imread`), visualization (`cv2_imshow` / Matplotlib), file export (`imwrite`), image metadata (resolution & channels), pixel manipulation in BGR color space, and blank canvas generation.
+- **Geometric Transformations & Drawing:** Spatial resizing (`resize`), cropping, 2D affine translation (`warpAffine`), rotation matrices, reflection flips (`flip`), drawing primitives (lines, rectangles, circles), and rendered typography (`putText`).
+- **Color Spaces & Thresholding:** Grayscale conversion (`cvtColor`), HSV color space, channel splitting & merging, simple binary thresholding, adaptive Gaussian thresholding, Otsu's optimal thresholding, and color inversion.
+- **Filtering, Blurring & Edge Detection:** Custom 2D convolution kernels, box averaging blur, Gaussian blur, median filtering, bilateral edge-preserving smoothing, Sobel gradients, Laplacian operator, and Canny edge detection.
+- **Mathematical Morphology & Contour Analysis:** Structural erosion, dilation, morphological opening and closing, contour extraction (`findContours`), contour drawing (`drawContours`), bounding box fitting, and geometric area/perimeter calculation.
+- **Advanced Features, Masking & Video Analytics:** Bitwise masking (AND, OR, XOR), color histogram computation, global histogram equalization, Contrast Limited Adaptive Histogram Equalization (CLAHE), multi-scale template matching, Haar Cascade face detection, video ingestion (`VideoCapture`), frame extraction, and video encoding (`VideoWriter`).
 
-### Opsi B: Lokal / JupyterLab
+---
+
+## 🚀 Execution & Setup Instructions
+
+### Option A: Google Colab
+Click the **Open in Colab** badge above or open `belajar-opencv.ipynb` directly in Google Colab.
+
+### Option B: Local JupyterLab Environment
 ```bash
 # Clone repository
-git clone https://github.com/pranataa-labs/opencv-lab.git
-cd opencv-lab
+git clone https://github.com/pranataa-labs/OpenCV-Lab.git
+cd OpenCV-Lab
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Jalankan JupyterLab
+# Launch JupyterLab
 jupyter lab
 ```
 
 ---
 
 <p align="center">
-  Crafted with curiosity by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
+  Crafted with precision by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
 </p>
